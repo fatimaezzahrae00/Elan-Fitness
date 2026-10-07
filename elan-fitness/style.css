@@ -545,3 +545,9 @@ button:focus-visible {
   font-size: 13px;
   color: #94A3B8;
 }
+.contact-title {
+  padding: 60px;
+  text-align: center;
+
+}
+
