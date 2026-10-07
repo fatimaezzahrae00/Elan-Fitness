@@ -548,6 +548,11 @@ button:focus-visible {
 .contact-title {
   padding: 60px;
   text-align: center;
-
+  color: #C2410C;
 }
-
+.contact-info {
+  margin-left: 100px;
+}
+.adress{
+  margin-left: 60px;
+}
