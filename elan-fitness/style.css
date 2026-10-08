@@ -548,11 +548,47 @@ button:focus-visible {
 .contact-title {
   padding: 60px;
   text-align: center;
-  color: #C2410C;
-}
-.contact-info {
-  margin-left: 100px;
+  color: #E45a2b;
 }
 .adress{
   margin-left: 60px;
 }
+.section{
+  background-color:#fbfcfe;
+}
+button {
+  background:#E45a2b;
+color: black;
+border: none;
+}
+.az{
+  display:flex;
+  justify-content: space-between;
+  border-radius: 12px;
+  background-color: #f0f1f5;
+  margin: 20px;
+  
+  
+}
+#Demande{
+  margin-left: 50px;
+}
+
+  .ax {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    gap: 50PX;
+    margin-left: 50px;
+    width: 600px;
+}
+.contact-info, .ax{
+  justify-content: center;
+  border: 1px solid black;
+padding: 30px;
+border-radius: 12px;
+background-color: white;
+margin: 20px;
+}
+.ax input{}
+
