@@ -561,7 +561,7 @@ color: black;
 border: 1px solid rgb(0, 0, 0);
 padding: 20px;
  margin-top: 20px;
-width: 750px;
+width: 650px;
 border-radius: 20px;
 }
 
@@ -585,12 +585,13 @@ border: 1px solid black;
 padding: 30px;
 border-radius: 12px;
 background-color: rgb(242, 238, 238);
-width: max-content;
+width:700px;
 }
 .ax input{
   border: none;
   border-radius: 20px;
   height: 50px;
+  padding: 10px;
 }
 .ax textarea{
   border: none;
@@ -602,3 +603,10 @@ width: max-content;
   flex-direction: column;
 }
 
+.adress iframe{
+  height: 300px;
+  border-radius: 12px;
+}
+.ax textarea {
+  padding: 10px;
+}
