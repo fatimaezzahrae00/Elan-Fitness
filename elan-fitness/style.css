@@ -556,11 +556,13 @@ button:focus-visible {
 }
 
 button {
-  background:#eceaea;
+  background:orange;
 color: black;
-border: 1px solid black;
-padding: 6px;
+border: 1px solid rgb(0, 0, 0);
+padding: 20px;
  margin-top: 20px;
+width: 750px;
+border-radius: 20px;
 }
 
 #Demande{
@@ -568,6 +570,12 @@ padding: 6px;
 }
 
 
+#contact-nous{
+  background-color:#ffffff;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
 
 .contact-info, .ax {
 display: flex;
@@ -576,20 +584,19 @@ gap: 10PX;
 border: 1px solid black;
 padding: 30px;
 border-radius: 12px;
-background-color: white;
+background-color: rgb(242, 238, 238);
 width: max-content;
 }
 .ax input{
-  margin: 20px
+  border: none;
+  border-radius: 20px;
+  height: 50px;
+}
+.ax textarea{
+  border: none;
+  border-radius: 20px;
 }
 
-#contact-nous{
-  background-color:#fbfcfe;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
-}
 .container-contact{
   display: flex;
   flex-direction: column;
