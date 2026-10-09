@@ -44,6 +44,8 @@ III-Organisation du site
             Le travail en équipe.
         La répartition des tâches.
 La communication entre les membres.
+      *methode scrum master:
+      Scrum est un framework Agile conçu pour gérer des projets complexes en cycles courts
         
 2 Live Coding HTML et CSS
 
@@ -60,6 +62,12 @@ Les couleurs
 les typographies
 la mise en page 
 les boutons
+   
+    
+
+
+ 
+ 
  
 
 
