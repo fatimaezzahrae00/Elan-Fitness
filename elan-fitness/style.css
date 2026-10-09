@@ -549,46 +549,49 @@ button:focus-visible {
   padding: 60px;
   text-align: center;
   color: #E45a2b;
+ 
 }
 .adress{
   margin-left: 60px;
 }
-.section{
-  background-color:#fbfcfe;
-}
+
 button {
-  background:#E45a2b;
+  background:#eceaea;
 color: black;
-border: none;
+border: 1px solid black;
+padding: 6px;
+ margin-top: 20px;
 }
-.az{
-  display:flex;
-  justify-content: space-between;
-  border-radius: 12px;
-  background-color: #f0f1f5;
-  margin: 20px;
-  
-  
-}
+
 #Demande{
   margin-left: 50px;
 }
 
-  .ax {
-    display: flex;
-    flex-direction: column;
-    width: 200px;
-    gap: 50PX;
-    margin-left: 50px;
-    width: 600px;
-}
-.contact-info, .ax{
-  justify-content: center;
-  border: 1px solid black;
+
+
+.contact-info, .ax {
+display: flex;
+flex-direction: column;
+gap: 10PX;
+border: 1px solid black;
 padding: 30px;
 border-radius: 12px;
 background-color: white;
-margin: 20px;
+width: max-content;
 }
-.ax input{}
+.ax input{
+  margin: 20px
+}
+
+#contact-nous{
+  background-color:#fbfcfe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.container-contact{
+  display: flex;
+  flex-direction: column;
+}
 
