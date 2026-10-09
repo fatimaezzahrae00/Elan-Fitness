@@ -551,9 +551,7 @@ button:focus-visible {
   color: #E45a2b;
  
 }
-.adress{
-  margin-left: 60px;
-}
+
 
 button {
   background:orange;
@@ -577,8 +575,21 @@ border-radius: 20px;
   justify-content: space-around;
 }
 
-.contact-info, .ax {
+.contact-info {
 display: flex;
+flex-direction: column;
+gap: 15PX;
+border: 1px solid black;
+padding: 30px;
+border-radius: 12px;
+background-color: rgb(242, 238, 238);
+width:500px;
+}
+iframe{
+  margin-top: 100px ;
+}
+.ax{
+  display: flex;
 flex-direction: column;
 gap: 10PX;
 border: 1px solid black;
